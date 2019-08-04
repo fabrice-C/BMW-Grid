@@ -1,0 +1,364 @@
+.imgResponsive {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+#container2 {
+  position: absolute;
+  background-color: black;
+  width: 99%;
+  color: white;
+  /*margin-top: -200px;*/
+}
+
+.centered {
+  position: absolute;
+  top: 39%;
+  left: 8%;
+}
+
+#VolantDdeEssai {
+  position: absolute;
+  bottom: 0%;
+  right: 4%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.one {
+  flex: 1 1 auto;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.two {
+  flex: 1 1 auto;
+  width: 50%;
+}
+
+.boxR {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+#boxBas {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.infogauche {
+flex: auto;
+width: 75%;
+}
+
+.infodroite {
+  flex: auto;
+  width:25%;
+}
+
+.textdroite {
+  text-align: right;
+}
+
+/*.oneR {
+  flex: auto;
+  width: 75%;
+}
+
+.twoR {
+  flex: auto;
+  width:25%;
+}
+
+/*.img1et2 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}*/
+
+.img1sur4 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.img2sur4 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.img3sur4 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.img4sur4 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+/*
+#hr {
+  border-bottom: 10px;
+  width: 100%;
+}*/
+
+.centered2 {
+  position: absolute;
+  width: 100%;
+  top: 1%;
+  left: 8%;
+}
+
+#mc_embed_signup {
+  width: 100%;
+  margin-left: 15%;
+}
+
+#mce-LNAME, #mce-FNAME, #mce-EMAIL, #mce-PHONE, #mce-MMERGE5 {
+  width: 36%;
+  height: 3.22vw;
+  margin-bottom: 1.29vw;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.29vw;/*24px;*/
+  border: none;
+  padding-left: 2%;
+  margin-left: 35%;
+}
+
+
+#formulaire {
+  width: 50%;
+  height: auto;
+  float:right;
+  background-color: grey;
+  opacity: 0.5;
+  margin-right: 27%;
+  margin-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.textform, .indicates-required {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.97vw;/*18px;*/
+}
+
+.button {
+  width: 38%;
+  height: 3.22vw;
+  color: white;
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.29vw;/*24px;*/
+  font-weight: bold;
+  border: none;
+  margin-left: 35%;
+}
+
+#formPres {
+  position: absolute;
+  top: 10%;
+  left:auto;
+}
+
+h1 {
+  display: block;
+  text-align:left;
+  color:White;
+  font-family: 'Playfair Display', serif;
+  font-size: 4.57vw;/*85px;*/
+  font-weight: bold;
+  line-height: 1em;
+}
+
+h2 {
+  display: block;
+  text-align: left;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.87vw; /*72px;*/
+  font-weight: bold;
+  line-height: 1em;
+}
+
+h3 {
+  display: block;
+  text-align: left;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.44vw;/*64px;
+  margin-top: -50px;*/
+}
+
+h4 {
+  display: block;
+  text-align: left;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.58vw;/*48px;
+  /*margin-top: -45px;
+  margin-bottom: -45px;*/
+  text-transform: uppercase;
+}
+
+h5 {
+  display: block;
+  text-align: left;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size:1.93vw; /*36px;*/
+}
+
+h6 {
+  display: block;
+  text-align: left;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.07vw;/*20px;*/
+}
+
+p {
+  display: block;
+  text-align: left;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.29vw;/*24px;*/
+  line-height: 1em;
+}
+
+.footer1 {
+  float: left;
+  width: 17%;
+  height: auto;
+  margin-left: 8%;
+}
+
+.footer2 {
+  float: left;
+  width: 17%;
+  height: auto;
+  margin-left: 8%;
+}
+
+.footerTitre {
+  text-align: left;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.29vw;/*24px;*/
+  font-style: bold;
+  line-height: 1em;
+}
+
+.footerDetail {
+  text-align: left;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.07vw;/*20px;*/
+  line-height: 1.2em;
+  margin-block: 3.22vw;
+}
+
+.footerDetail2 {
+  text-align: left;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.07vw;/*20px;*/
+  line-height: 1.5em;
+  margin-block: 1.61vw;
+}*/
+
+.footerTitreRS {
+  text-align: center;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.29vw;/*24px;*/
+  font-style: bold;
+  line-height: 1em;
+}
+
+.boxF {
+  display: flex;
+  justify-content:flex-start;
+}
+
+#footer3 {
+  float: right;
+  width: 17%;
+  margin-left: 33%;
+  height: auto;
+}
+
+.RS {
+  width: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+/*@media (min-width: 1280px) {
+  #logoCentered {margin-left: -65px;}
+  #logoMCAR {width: 100%;}
+  #volant {width: 100%;}
+  #VolantDdeEssai {right: 4%;}
+}
+
+@media (min-width: 521px) and (max-width:1279px) {
+  #logoCentered {margin-left: -39px;}
+  #logoMCAR {width: 60%;}
+  #volant {width: 90%;}
+}
+
+@media (max-width: 520px) {
+  h3 {margin-top: 0;}
+  #logoCentered {margin-left: -32.5px;}
+  #logoMCAR {width: 50%;}
+  #volant {width: 75%;}
+  /*#VolantDdeEssai {left: 40%;}
+}*/
