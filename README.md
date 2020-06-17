@@ -1,6 +1,6 @@
 # BMW-Grid
 
-### Formation Simplon projet "Landing page MCAR avec prise de rendez-vous en ligne" (GRID)
+### Formation Simplon - projet : "Landing page MCAR avec prise de rendez-vous en ligne" (GRID)
 
 ### Livrables :
 
